@@ -1,0 +1,50 @@
+<html>
+<head><title>Konamikitten Options</title>
+	<style>
+		html {
+			height: 200px;
+			width: 200px;
+		}
+		body {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+			font-weight: 300;
+			padding: 20px;
+			height: 200px;
+			color: #333;
+		}
+		div.info{
+			margin-top: 10px;
+			border-top: 1px solid #eee;
+		}
+		div.info p {
+			font-size: small;
+		}
+		a, a:visited{
+			color: #000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		#save {
+			margin-top: 10px;
+		}
+
+		</style>
+</head>
+
+<body>
+<div id="options">
+	<input type="checkbox" id="alwaysEnabled" value="always" >
+	<label for="alwaysEnabled">Always enabled</label>
+	<button id="save">Save</button>
+</div>
+<div id="status"></div>
+
+<div class="info"><p>Use checkbox above to always enable kittens for this site, or, for instant on-demand kittens use <a href="http://en.wikipedia.org/wiki/Konami_code" target="_blank">Konami code</a> on any page.</p></div>
+</body>
+
+<script src="options.js"></script>
+
+</html>
